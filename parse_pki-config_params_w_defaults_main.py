@@ -3,8 +3,8 @@ import re
 import json
 from collections import defaultdict
 
-dogtag_repo = "/home/taherrin/taherrin_dev/dogtagpki/pki/"
-cs_cfg_file = "/home/taherrin/taherrin_dev/dogtagpki/pki/base/ca/shared/conf/CS.cfg"
+dogtag_repo = "~/dogtagpki/pki/"
+cs_cfg_file = "~/dogtagpki/pki/base/ca/shared/conf/CS.cfg"
 file_extentions = ['.java', '.md', '.sh', '.py', '.yaml', '.yml', '.cfg', '.adoc',
                      '.txt', '.conf','.properties', '.ldif','.html', '.profile', '.json']
 context_lines = 4  # Lines before/after usage
